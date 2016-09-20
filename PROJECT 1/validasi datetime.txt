@@ -1,0 +1,30 @@
+ //Set today's date as a variable            
+        DateTime todayDate = DateTime.Today;
+        DateTime userBirthdate;
+
+        //Ask user for birth date
+        Console.Write("Please enter your date of birth (dd/mm/yy):  ");
+
+        //Validate the input and set as a variable
+        bool inputValid = false;
+        while (inputValid != true)
+        {
+            if (DateTime.Parse(Console.ReadLine()) > todayDate)
+            {
+                Console.Write("Invalid Date.  Please enter your date of birth (dd/mm/yy):  ");
+            }
+            else
+            {
+                userBirthdate = DateTime.Parse(Console.ReadLine());
+                Console.WriteLine(userBirthdate);
+                inputValid = true;
+            }
+        }
+
+        //Calculate user age
+        int userAge = todayDate.Year - userBirthdate.Year;
+        if (userBirthdate > todayDate.AddYears(-userAge)) userAge--;
+
+        //Output
+        Console.WriteLine("You are {0} years old!", userAge);
+        Console.ReadLine();

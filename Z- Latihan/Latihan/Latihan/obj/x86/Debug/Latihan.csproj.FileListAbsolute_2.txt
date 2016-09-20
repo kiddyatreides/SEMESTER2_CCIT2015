@@ -1,0 +1,5 @@
+D:\CCIT-FTUI\2SC1\Tugas\Latihan\Latihan\bin\Debug\Latihan.exe
+D:\CCIT-FTUI\2SC1\Tugas\Latihan\Latihan\bin\Debug\Latihan.pdb
+D:\CCIT-FTUI\2SC1\Tugas\Latihan\Latihan\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\CCIT-FTUI\2SC1\Tugas\Latihan\Latihan\obj\x86\Debug\Latihan.exe
+D:\CCIT-FTUI\2SC1\Tugas\Latihan\Latihan\obj\x86\Debug\Latihan.pdb

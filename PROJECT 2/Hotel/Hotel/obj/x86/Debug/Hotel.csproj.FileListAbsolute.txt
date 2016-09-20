@@ -1,0 +1,100 @@
+C:\Users\Hp 14\documents\visual studio 2010\Projects\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Hp 14\documents\visual studio 2010\Projects\Hotel\Hotel\obj\x86\Debug\Hotel.csproj.GenerateResource.Cache
+C:\Users\Hp 14\documents\visual studio 2010\Projects\Hotel\Hotel\bin\Debug\Hotel.exe
+C:\Users\Hp 14\documents\visual studio 2010\Projects\Hotel\Hotel\bin\Debug\Hotel.pdb
+C:\Users\Hp 14\documents\visual studio 2010\Projects\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Login.resources
+C:\Users\Hp 14\documents\visual studio 2010\Projects\Hotel\Hotel\obj\x86\Debug\Hotel.exe
+C:\Users\Hp 14\documents\visual studio 2010\Projects\Hotel\Hotel\obj\x86\Debug\Hotel.pdb
+C:\Users\Hp 14\documents\visual studio 2010\Projects\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.MainMenuX.resources
+C:\Users\Hp 14\documents\visual studio 2010\Projects\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.CheckIn.resources
+C:\Users\Hp 14\documents\visual studio 2010\Projects\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.CheckOut.resources
+C:\Users\Hp 14\documents\visual studio 2010\Projects\Hotel\Hotel\obj\x86\Debug\Hotel.csprojResolveAssemblyReference.cache
+C:\Users\Hp 14\documents\visual studio 2010\Projects\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Customer.resources
+C:\Users\Hp 14\Documents\Visual Studio 2010\Projects\Hotel\Hotel\bin\Debug\Hotel.exe.config
+C:\Users\Hp 14\Documents\Visual Studio 2010\Projects\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Room.resources
+C:\Users\Hp 14\Documents\Visual Studio 2010\Projects\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Class.resources
+C:\Users\Hp 14\Documents\Visual Studio 2010\Projects\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Hp 14\Documents\Visual Studio 2010\Projects\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.ReceptionistPanel.resources
+G:\ \Hotel\Hotel\bin\Debug\Hotel.exe.config
+G:\ \Hotel\Hotel\obj\x86\Debug\Hotel.exe
+G:\ \Hotel\Hotel\obj\x86\Debug\Hotel.pdb
+G:\ \Hotel\Hotel\bin\Debug\Hotel.exe
+G:\ \Hotel\Hotel\bin\Debug\Hotel.pdb
+G:\ \Hotel\Hotel\obj\x86\Debug\Hotel.csprojResolveAssemblyReference.cache
+G:\ \Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+G:\ \Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.CheckIn.resources
+G:\ \Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.CheckOut.resources
+G:\ \Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Class.resources
+G:\ \Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Customer.resources
+G:\ \Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Login.resources
+G:\ \Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.MainMenuX.resources
+G:\ \Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+G:\ \Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.ReceptionistPanel.resources
+G:\ \Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Room.resources
+G:\ \Hotel\Hotel\obj\x86\Debug\Hotel.csproj.GenerateResource.Cache
+C:\Users\Hp 14\Desktop\Hotel\Hotel\bin\Debug\Hotel.exe.config
+C:\Users\Hp 14\Desktop\Hotel\Hotel\obj\x86\Debug\Hotel.exe
+C:\Users\Hp 14\Desktop\Hotel\Hotel\obj\x86\Debug\Hotel.pdb
+C:\Users\Hp 14\Desktop\Hotel\Hotel\bin\Debug\Hotel.exe
+C:\Users\Hp 14\Desktop\Hotel\Hotel\bin\Debug\Hotel.pdb
+C:\Users\Hp 14\Desktop\Hotel\Hotel\obj\x86\Debug\Hotel.csprojResolveAssemblyReference.cache
+C:\Users\Hp 14\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Hp 14\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.CheckIn.resources
+C:\Users\Hp 14\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.CheckOut.resources
+C:\Users\Hp 14\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Class.resources
+C:\Users\Hp 14\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Customer.resources
+C:\Users\Hp 14\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Login.resources
+C:\Users\Hp 14\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.MainMenuX.resources
+C:\Users\Hp 14\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Hp 14\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.ReceptionistPanel.resources
+C:\Users\Hp 14\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Room.resources
+C:\Users\Hp 14\Desktop\Hotel\Hotel\obj\x86\Debug\Hotel.csproj.GenerateResource.Cache
+C:\Users\Hp 14\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.TransReport.resources
+C:\Users\Hp 14\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.ClassReport.resources
+C:\Users\Hp 14\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.RoomReport.resources
+C:\Users\Hp 14\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.CustomerReport.resources
+F:\ \Hotel\Hotel\bin\Debug\Hotel.exe.config
+F:\ \Hotel\Hotel\obj\x86\Debug\Hotel.exe
+F:\ \Hotel\Hotel\obj\x86\Debug\Hotel.pdb
+C:\Users\Hp 14\Desktop\Hotel GUI\Hotel\Hotel\bin\Debug\Hotel.exe.config
+C:\Users\Hp 14\Desktop\Hotel GUI\Hotel\Hotel\obj\x86\Debug\Hotel.exe
+C:\Users\Hp 14\Desktop\Hotel GUI\Hotel\Hotel\obj\x86\Debug\Hotel.pdb
+C:\Users\Hp 14\Desktop\Hotel GUI\Hotel\Hotel\obj\x86\Debug\Hotel.csprojResolveAssemblyReference.cache
+C:\Users\Hp 14\Desktop\Hotel GUI\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Hp 14\Desktop\Hotel GUI\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.CheckIn.resources
+C:\Users\Hp 14\Desktop\Hotel GUI\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.CheckOut.resources
+C:\Users\Hp 14\Desktop\Hotel GUI\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Class.resources
+C:\Users\Hp 14\Desktop\Hotel GUI\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.CustomerReport.resources
+C:\Users\Hp 14\Desktop\Hotel GUI\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.RoomReport.resources
+C:\Users\Hp 14\Desktop\Hotel GUI\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.TransReport.resources
+C:\Users\Hp 14\Desktop\Hotel GUI\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Customer.resources
+C:\Users\Hp 14\Desktop\Hotel GUI\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Login.resources
+C:\Users\Hp 14\Desktop\Hotel GUI\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.MainMenuX.resources
+C:\Users\Hp 14\Desktop\Hotel GUI\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Hp 14\Desktop\Hotel GUI\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.ReceptionistPanel.resources
+C:\Users\Hp 14\Desktop\Hotel GUI\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Room.resources
+C:\Users\Hp 14\Desktop\Hotel GUI\Hotel\Hotel\obj\x86\Debug\Hotel.csproj.GenerateResource.Cache
+C:\Users\Hp 14\Desktop\Hotel GUI\Hotel\Hotel\bin\Debug\Hotel.exe
+C:\Users\Hp 14\Desktop\Hotel GUI\Hotel\Hotel\bin\Debug\Hotel.pdb
+C:\Users\Hp 14\Desktop\Hotel GUI\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.ClassReport.resources
+C:\Users\John\Desktop\Hotel\Hotel\bin\Debug\Hotel.exe.config
+C:\Users\John\Desktop\Hotel\Hotel\obj\x86\Debug\Hotel.exe
+C:\Users\John\Desktop\Hotel\Hotel\obj\x86\Debug\Hotel.pdb
+C:\Users\John\Desktop\Hotel\Hotel\bin\Debug\Hotel.exe
+C:\Users\John\Desktop\Hotel\Hotel\bin\Debug\Hotel.pdb
+C:\Users\John\Desktop\Hotel\Hotel\obj\x86\Debug\Hotel.csprojResolveAssemblyReference.cache
+C:\Users\John\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\John\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.CheckIn.resources
+C:\Users\John\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.CheckOut.resources
+C:\Users\John\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Class.resources
+C:\Users\John\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.ClassReport.resources
+C:\Users\John\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.CustomerReport.resources
+C:\Users\John\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.RoomReport.resources
+C:\Users\John\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.TransReport.resources
+C:\Users\John\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Customer.resources
+C:\Users\John\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Login.resources
+C:\Users\John\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.MainMenuX.resources
+C:\Users\John\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\John\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.ReceptionistPanel.resources
+C:\Users\John\Desktop\Hotel\Hotel\obj\x86\Debug\WindowsFormsApplication1.Room.resources
+C:\Users\John\Desktop\Hotel\Hotel\obj\x86\Debug\Hotel.csproj.GenerateResource.Cache

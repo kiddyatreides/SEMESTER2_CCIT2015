@@ -1,0 +1,8 @@
+R001#Luxury#1500000#Not Available#
+R002#Luxury#1500000#Not Available#
+R003#Deluxe#1200000#Not Available#
+R004#Deluxe#1200000#Not Available#
+R005#Double Regular#1000000#Available#
+R006#Double Regular#1000000#Available#
+R007#Luxury#1500000#Available#
+R008#Luxury#1500000#Not Available#

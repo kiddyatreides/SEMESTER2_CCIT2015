@@ -1,0 +1,7 @@
+andi,98
+doni,89
+dudi,75
+bagus,100
+bambang,85
+danu,73
+rina,65

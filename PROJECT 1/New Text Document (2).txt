@@ -1,0 +1,240 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.IO;
+
+namespace ProjectSample
+{
+    class Program
+    {
+        struct details
+        {
+            public int Code;
+            public string Title;
+            public string Category;
+            public string Writer;
+            public int Release_Year;
+            public int Stock;
+
+        };
+
+            private details Bookdetails;
+            static FileStream F, F1;
+            StreamWriter W, W1;
+            StreamReader R;
+
+            public void Getdata()
+            {
+                int VNN;
+
+                // Not Minus Code Validation
+
+                VNN = 0;
+                while ( VNN == 0)
+                {
+                    Console.Write("Book Code: ");
+                    Bookdetails.Code = Convert.ToInt32(Console.ReadLine());
+                    if (Bookdetails.Code < 0)
+                    {
+                        Console.WriteLine("Cannot Enter Minus Value");
+
+                    }
+                    else
+                {
+                    VNN = 1;
+                }
+
+               }
+
+            // Not Null Category Validation
+            VNN = 0;
+            while (VNN == 0)
+            {
+                Console.Write("Category: ");
+                Bookdetails.Category = Console.ReadLine();
+                if (Bookdetails.Category.Length == 0)
+                {
+                    Console.WriteLine("Cannot Enter Null Value");
+                }
+                else
+                {
+                    VNN = 1;
+                }
+            }
+            // ChooseCategory();
+
+            // Not Null Writer Validation
+
+            VNN = 0;
+            while (VNN == 0)
+            {
+                Console.Write("Writer: ");
+                Bookdetails.Writer = Console.ReadLine();
+                if (Bookdetails.Writer.Length == 0)
+                {
+                    Console.WriteLine("Cannot Enter Null Value");
+                }
+                else
+                {
+                    VNN = 1;
+                }
+            }
+            //Not Minus Release year Validation
+
+            VNN = 0;
+            while (VNN == 0)
+            {
+                Console.Write("Release Year: ");
+                Bookdetails.Release_Year = Convert.ToInt32(Console.ReadLine());
+                if (Bookdetails.Release_Year < 0)
+                {
+                    Console.WriteLine("Cannot Enter Null Value");
+                }
+                else
+                {
+                    VNN = 1;
+                }
+            }
+
+            //Not Minus Stock Validation
+
+            VNN = 0;
+            while (VNN == 0)
+            {
+                Console.Write("Stock: ");
+                Bookdetails.Stock = Convert.ToInt32(Console.ReadLine());
+                if (Bookdetails.Stock < 0)
+                {
+                    Console.WriteLine("Cannot Enter Null Value");
+                }
+                else
+                {
+                    VNN = 1;
+                }
+
+            }
+
+            String Str;
+            F = new FileStream("Books.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+            R = new StreamReader(F);
+            if ((Str = R.ReadLine()) == null )
+            {
+                R.Close();
+                File.Delete("Books.txt");
+
+            }
+            R.Close();
+
+            //Writing Data Into The File(Books.txt).
+            F1 = new FileStream("Books.txt", FileMode.Append, FileAccess.Write);
+            W1 = new StreamWriter(F1);
+
+            W1.WriteLine(Bookdetails.Code + "#" + Bookdetails.Title + "#" + Bookdetails.Category + "#" + Bookdetails.Writer + "#" + Bookdetails.Release_Year + "#" + Bookdetails.Stock + "#");
+
+            W1.Flush();
+            W1.Close();
+
+    }
+
+        public void Display()
+        {
+            String str;
+            F = new FileStream("Books.txt", FileMode.Open, FileAccess.Read);
+            R = new StreamReader(F);
+            Console.Clear();
+            int Pos = 0;
+
+
+            //Code To Display the data on the console in a proper format.
+            Console.WriteLine("Code      Tiltle     Category     Writer     Release Year     Stock");
+            Console.WriteLine("___________________________________________________________________");
+
+            while ((str = R.ReadLine()) !=null )
+                {
+                while (true)
+                {
+                    Pos = str.IndexOf("#");
+                    if (Pos == -1)
+                        break;
+                    Console.Write(str.Substring(0, Pos) + "\t");
+                    str = str.Substring(Pos + 1);
+                }
+                Pos = 0;
+                Console.WriteLine();
+            }
+            R.Close();
+
+        }
+
+
+        static void Main(string[] args)
+        {
+            Program obj = new Program();
+            int choose = 0;
+            Console.Clear();
+            while (choose != 5)
+            {
+                Console.WriteLine("=======================AUThOR======================");
+                Console.WriteLine("=====================INVENTORY=====================");
+                Console.WriteLine("=======================SYSTEM======================");
+                Console.WriteLine("======================+WELCOME=====================");
+                Console.WriteLine("1. Add Books");
+                Console.WriteLine("2. Book List");
+                Console.WriteLine("3. Search Book");
+                Console.WriteLine("4. Update");
+                Console.WriteLine("5. Exit");
+                Console.WriteLine("===================================================");
+                Console.WriteLine("============Enter Your Choice(1/2/3/4/5)===========");
+                Console.WriteLine("===================================================");
+                choose = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine();
+                switch (choose)
+                {
+                    case 1:
+                        Console.Clear();
+                        obj.Getdata();
+                        Console.Clear();
+                        break;
+
+                    case 2:
+                        Console.Clear();
+                        obj.Display();
+                        Console.ReadKey();
+                        Console.Clear();
+                        break;
+
+                    case 3:
+                        //Console.Clear();
+                        //obj.Delete();
+                        //Console.ReadKey();
+                        //Console.Clear();
+                        break;
+
+                    case 4:
+                        //Console.Clear();
+                        //obj.UpdateData();
+                        //continue;
+                        //Console.ReadKey();
+                        //Console.Clear();
+                        //break;
+
+                    case 5:
+                        return;
+
+                    default:
+                        Console.WriteLine("Invalid");
+                        break;
+                }
+            }
+            Console.ReadLine();
+        }
+
+
+            }
+
+        }
+    
+
+
+

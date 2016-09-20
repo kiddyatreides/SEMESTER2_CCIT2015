@@ -1,0 +1,4 @@
+L001#Luxury#1500000#King Size#10 x 10#Bath Tub#Tv flat 42inch + Home Theater#
+L002#Deluxe#1200000#Queen Size#8 x 8#Bath Tub#Tv flat 42inch + Home Theater#
+L003#Double Regular#800000#2 Single#8 x 8#Shower#Tv flat 32inch#
+L004#Regular#-700000#King Size#8 x 8#Shower#Tv flat 42inch + Home Theater#

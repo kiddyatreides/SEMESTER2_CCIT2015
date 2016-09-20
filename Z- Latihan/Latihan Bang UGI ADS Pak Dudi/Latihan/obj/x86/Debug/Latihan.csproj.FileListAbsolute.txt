@@ -1,0 +1,9 @@
+D:\CCIT-FTUI\2SC1\Tugas\Latihan\Latihan\bin\Debug\Latihan.exe
+D:\CCIT-FTUI\2SC1\Tugas\Latihan\Latihan\bin\Debug\Latihan.pdb
+D:\CCIT-FTUI\2SC1\Tugas\Latihan\Latihan\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\CCIT-FTUI\2SC1\Tugas\Latihan\Latihan\obj\x86\Debug\Latihan.exe
+D:\CCIT-FTUI\2SC1\Tugas\Latihan\Latihan\obj\x86\Debug\Latihan.pdb
+C:\Users\Kiddy\Desktop\Kiddy\Latihan\Latihan\obj\x86\Debug\Latihan.exe
+C:\Users\Kiddy\Desktop\Kiddy\Latihan\Latihan\obj\x86\Debug\Latihan.pdb
+D:\D File\Kampus\CCIT\Semester2\Z- Latihan\Latihan Bang UGI ADS Pak Dudi\Latihan\obj\x86\Debug\Latihan.exe
+D:\D File\Kampus\CCIT\Semester2\Z- Latihan\Latihan Bang UGI ADS Pak Dudi\Latihan\obj\x86\Debug\Latihan.pdb

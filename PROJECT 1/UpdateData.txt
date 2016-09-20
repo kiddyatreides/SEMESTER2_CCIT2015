@@ -1,0 +1,102 @@
+ public void UpdateData()
+        {
+            try
+            {
+                F = new FileStream("Books.txt", FileMode.Open, FileAccess.Read);
+                R = new StreamReader(F);
+                int VNN = 0;
+                while (VNN == 0)
+                {
+                    try
+                    {
+                        Console.WriteLine("=============UPDATE MENU=============");
+                        Console.WriteLine("Please Enter Book Code To Update Data");
+                        Console.Write("Enter Book Code : ");
+                        Bookdetails.Code = Convert.ToInt32(Console.ReadLine());
+                        if (Bookdetails.Code < 0)
+                        {
+                            Console.WriteLine("Cannot Enter Minus Value");
+                            VNN = 0;
+                        }
+                        else
+                        {
+                            VNN = 1;
+                        }
+                    }
+                    catch (FormatException)
+                    {
+                        Console.WriteLine("Invalid Format");
+                        VNN = 0;
+                    }
+                }
+                Boolean find = false;
+                String Str;
+                String Chkstr1;
+                int Pos;
+                String alltext = "";
+                while ((Str = R.ReadLine()) != null)
+                {
+                    Chkstr1 = Bookdetails.Code.ToString();
+                    Pos = Str.IndexOf("#");
+
+                    String Chkstr2 = Str.Substring(0, Pos);
+                  //  Str = Str.Substring(Pos + 1);
+                    // Console.WriteLine("From : "+ Chkstr2+ ":Input " +Chkstr2);
+                   // String[] Noreg = Chkstr2.Split(':');
+                   // String nomorRegistrasi = Noreg[1].Trim();
+
+                    String newLine = "";
+
+                    //Console.WriteLine("dari file:" + nomorRegistrasi + "input:" + Chkstr1 + "komparasi" + (Chkstr1.CompareTo(nomorRegistrasi)));
+                    if ((Chkstr1.CompareTo(Chkstr2) == 0))
+                    {
+                        String[] elemen = Str.Split('#');
+                        //Pos = Str.IndexOf("\t");
+                        Console.WriteLine("Select Number To Edit Data :\n");
+                        for (int a = 0; a < 6; a++)
+                        {
+                            Console.WriteLine((a + 1) + "." + elemen[a]);
+                        }
+                        Console.WriteLine("\n");
+                        find = true;
+                        int indexYangdiUbah = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Book Code:" + indexYangdiUbah + "\n");
+                        Console.WriteLine("Old Data:" + elemen[indexYangdiUbah - 1]);
+                        Console.WriteLine("Please Enter New Data: ");
+
+                        elemen[indexYangdiUbah - 1] = Console.ReadLine();
+
+                        newLine = elemen[0];
+                        for (int a = 1; a < elemen.Length; a++)
+                        {
+                            newLine = newLine + "#" + elemen[a];
+                        }
+                        alltext += newLine + "\n";
+
+                        Console.WriteLine("Data Have Changed \n Thank You \n\n");
+                    }
+                    else
+                    {
+                        alltext = alltext + Str + "\n";
+                    }
+
+                }
+                if (!find)
+                {
+                    Console.WriteLine("\n Sorry File Not Found \n\n");
+                }
+                R.Close();
+
+                // Write New Data
+                //FileStream Fs = new FileStream("Books.txt", FileMode.Open, FileAccess.Write);
+                //StreamWriter W = new StreamWriter(Fs);
+                //W.WriteLine("alltext");
+
+                File.WriteAllText("Books.txt", alltext);
+            }
+            catch (FileNotFoundException)
+            {
+                Console.WriteLine("No One Registered Yet");
+            }
+            R.Close();
+        }

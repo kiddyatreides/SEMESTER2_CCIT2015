@@ -1,0 +1,232 @@
+using System;
+using System.IO;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication10
+{
+    class Program
+    {
+        struct details
+        {
+            public int Code;
+            public string Title;
+            public string Category;
+            public string Writter;
+            public int Release_year;
+            public int Stock;
+        };
+
+        private details Bookdetails;
+        static FileStream F, F1;
+        static StreamWriter W;
+        static StreamReader R;
+        
+        public void Getdata()
+        {
+            int VNN;
+            // Not MinusCode Validation
+            VNN = 0;
+            while (VNN == 0)
+            {
+                Console.Write("Book Code: ");
+                Bookdetails.Code = Convert.ToInt32(Console.ReadLine());
+                if (Bookdetails.Code < 0)
+                {
+                    Console.WriteLine("Cannot Enter Minus Value");
+                }
+                else
+                {
+                    VNN = 1;
+                }
+            }
+            // Not null Title Validation
+            
+                 VNN = 0;
+            while (VNN == 0)
+            {
+                Console.Write("Title ");
+                Bookdetails.Title = (Console.ReadLine());
+                if (Bookdetails.Title.Length == 0)
+                {
+                    Console.WriteLine("Cannot Enter Minus Value");
+                }
+                else
+                {
+                    VNN = 1;
+                }
+            }
+
+            VNN = 0;
+            while (VNN == 0)
+            {
+                Console.Write("Category: ");
+                Bookdetails.Category = (Console.ReadLine());
+                if (Bookdetails.Category.Length == 0)
+                {
+                    Console.WriteLine("Cannot Enter Minus Value");
+                }
+                else
+                {
+                    VNN = 1;
+                }
+            }
+
+            VNN = 0;
+            while (VNN == 0)
+            {
+                Console.Write("Writter: ");
+                Bookdetails.Writter = (Console.ReadLine());
+                if (Bookdetails.Writter.Length == 0)
+                {
+                    Console.WriteLine("Cannot Enter Minus Value");
+                }
+                else
+                {
+                    VNN = 1;
+                }
+            }
+
+            VNN = 0;
+            while (VNN == 0)
+            {
+                Console.Write("Release Year: ");
+                Bookdetails.Release_year = Convert.ToInt32(Console.ReadLine());
+                if (Bookdetails.Release_year < 0)
+                {
+                    Console.WriteLine("Cannot Enter Minus Value");
+                }
+                else
+                {
+                    VNN = 1;
+                }
+            }
+
+            VNN = 0;
+            while (VNN == 0)
+            {
+                Console.Write("Stock: ");
+                Bookdetails.Stock = Convert.ToInt32(Console.ReadLine());
+                if (Bookdetails.Stock < 0)
+                {
+                    Console.WriteLine("Cannot Enter Minus Value");
+                }
+                else
+                {
+                    VNN = 1;
+                }
+            }
+
+            F = new FileStream("Books.txt", FileMode.Append, FileAccess.Write);
+            W = new StreamWriter(F);
+
+            // writing data into the file(Books.txt)
+            W.WriteLine(Bookdetails.Code + "#" + Bookdetails.Title + "#" + Bookdetails.Category + "#" + Bookdetails.Writter + "#" + Bookdetails.Release_year + "#" + Bookdetails.Stock + "#");
+            W.Flush();
+            W.Close();
+        
+            
+        }
+        public void Display()
+        {
+            String Str;
+            F = new FileStream("Books.txt", FileMode.Open, FileAccess.Read);
+            R = new StreamReader(F);
+
+            Console.Clear();
+            int Pos = 0;
+
+            //Buat nampilin data di console di format rapih
+            Console.WriteLine("Code     Title       Category        Writter     Release Year        Stock");
+            Console.WriteLine("______________________________________________________________________________");
+
+            while ((Str = R.ReadLine()) != null)
+            {
+                while (true)
+                {
+                    Pos = Str.IndexOf("#");
+                    if (Pos == -1)
+                        break;
+                    Console.Write(Str.Substring(0, Pos) + "\t");
+                    Str = Str.Substring(Pos + 1);
+                }
+                Pos = 0;
+                Console.WriteLine();
+            }
+            R.Close();
+        }
+
+        public void Search_cat()
+        {
+            String Str, Categories;
+            int Pos;
+            F = new FileStream("Books.txt", FileMode.Open, FileAccess.Read);
+            R = new StreamReader(F);
+            Console.Write("Enter the caegory: ");
+            Categories = Convert.ToString(Console.ReadLine());
+
+            //
+            Console.WriteLine("Code     Title       Category        Writter     Release Year        Stock");
+            Console.WriteLine("__________________________________________________________________________");
+
+            while ((Str = R.ReadLine()) != null)
+            {
+                if (Str.Contains(Categories))
+                {
+                    while (true)
+                    {
+                        Pos = Str.IndexOf("#");
+
+                        if (Pos == -1)
+                            break;
+                        Console.Write(Str.Substring(0,Pos) + "\t");
+
+                        Str = Str.Substring(Pos + 1);
+                    }
+                    Pos = 0;
+                }
+                Console.WriteLine("");
+            }
+            R.Close();
+        }
+        public void delete()
+        {
+            FileStream fs = new FileStream("books.txt", FileMode.Open, FileAccess.Read);
+            StreamReader sr = new StreamReader(fs);
+
+            ArrayList databaru = new ArrayList();
+            Console.WriteLine("Kode yang akan di hapus : ");
+            string target = Console.ReadLine();
+            //string target = "201";
+
+            string line = sr.ReadLine();
+            while (line != null)
+            {
+                if (!line.Contains(target))
+                {
+                    databaru.Add(line);
+                }
+                line = sr.ReadLine();
+            }
+
+            sr.Close();
+            fs.Close();
+
+            File.WriteAllLines("Books.txt",databaru.ToArray(typeof(string)) as string[]);
+        }
+
+
+        static void Main(String[] args)
+        {
+            Program obj = new Program();
+            //obj.Getdata();
+            //obj.delete();
+            //obj.Search_cat
+            obj.Display();
+            Console.ReadLine();
+        }
+    }
+}

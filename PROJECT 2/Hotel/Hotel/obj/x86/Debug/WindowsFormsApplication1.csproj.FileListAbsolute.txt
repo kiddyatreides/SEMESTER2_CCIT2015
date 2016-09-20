@@ -1,0 +1,3 @@
+C:\Users\Hp 14\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Debug\coba_project_GUI.Login.resources
+C:\Users\Hp 14\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Hp 14\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
